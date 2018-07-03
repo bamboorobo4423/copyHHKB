@@ -596,13 +596,13 @@ row3
 $Comp
 L ARDUINO_MICRO_SHIELD U1
 U 1 1 5B17D96D
-P 5700 650
-F 0 "U1" H 7450 1050 60  0000 C CNN
-F 1 "ARDUINO_MICRO_SHIELD" H 6550 1250 60  0000 C CNN
-F 2 "" H 6100 600 60  0000 C CNN
-F 3 "" H 6100 600 60  0000 C CNN
-	1    5700 650 
-	0    1    1    0   
+P 6850 2350
+F 0 "U1" H 8600 2750 60  0000 C CNN
+F 1 "ARDUINO_MICRO_SHIELD" H 7700 2950 60  0000 C CNN
+F 2 "" H 7250 2300 60  0000 C CNN
+F 3 "" H 7250 2300 60  0000 C CNN
+	1    6850 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L SW_DIP_x01 ^1
@@ -1628,17 +1628,17 @@ Text GLabel 12200 3600 1    60   Input ~ 0
 col13
 Text GLabel 12800 6300 2    60   Input ~ 0
 row4
-Text GLabel 8200 -300 2    60   Input ~ 0
+Text GLabel 5700 1500 0    60   Input ~ 0
 col0
-Text GLabel 8200 100  2    60   Input ~ 0
+Text GLabel 7050 1200 2    60   Input ~ 0
 col2
-Text GLabel 8200 -100 2    60   Input ~ 0
+Text GLabel 5700 1400 0    60   Input ~ 0
 col1
-Text GLabel 8200 600  2    60   Input ~ 0
+Text GLabel 7050 1300 2    60   Input ~ 0
 col4
-Text GLabel 8200 350  2    60   Input ~ 0
+Text GLabel 5700 700  0    60   Input ~ 0
 col3
-Text GLabel 8200 800  2    60   Input ~ 0
+Text GLabel 7050 800  2    60   Input ~ 0
 col5
 Text GLabel 8200 950  2    60   Input ~ 0
 col6
@@ -1700,14 +1700,14 @@ Connection ~ 12200 4700
 Wire Wire Line
 	12800 5200 12800 5300
 Connection ~ 12800 5600
-Text GLabel 4950 1150 0    60   Input ~ 0
+Text GLabel 7050 1600 2    60   Input ~ 0
 row0
-Text GLabel 4950 1300 0    60   Input ~ 0
+Text GLabel 7050 1700 2    60   Input ~ 0
 row1
-Text GLabel 4950 1600 0    60   Input ~ 0
+Text GLabel 5700 1000 0    60   Input ~ 0
 row3
-Text GLabel 4900 1750 0    60   Input ~ 0
+Text GLabel 5350 1650 0    60   Input ~ 0
 row4
-Text GLabel 4950 1450 0    60   Input ~ 0
+Text GLabel 5700 1100 0    60   Input ~ 0
 row2
 $EndSCHEMATC
