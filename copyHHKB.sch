@@ -596,13 +596,13 @@ row3
 $Comp
 L ARDUINO_MICRO_SHIELD U1
 U 1 1 5B17D96D
-P 6850 2350
-F 0 "U1" H 8600 2750 60  0000 C CNN
-F 1 "ARDUINO_MICRO_SHIELD" H 7700 2950 60  0000 C CNN
-F 2 "" H 7250 2300 60  0000 C CNN
-F 3 "" H 7250 2300 60  0000 C CNN
-	1    6850 2350
-	0    -1   -1   0   
+P 5850 850
+F 0 "U1" H 7600 1250 60  0000 C CNN
+F 1 "ARDUINO_MICRO_SHIELD" H 6700 1450 60  0000 C CNN
+F 2 "" H 6250 800 60  0000 C CNN
+F 3 "" H 6250 800 60  0000 C CNN
+	1    5850 850 
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_DIP_x01 ^1
@@ -1331,10 +1331,10 @@ F 3 "" H 11000 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D?
+L D D56
 U 1 1 5B3BE24D
 P 11850 3950
-F 0 "D?" H 11850 4050 50  0000 C CNN
+F 0 "D56" H 11850 4050 50  0000 C CNN
 F 1 "D" H 11850 3850 50  0000 C CNN
 F 2 "keyboard:Diode" H 11850 3950 50  0001 C CNN
 F 3 "" H 11850 3950 50  0001 C CNN
@@ -1342,10 +1342,10 @@ F 3 "" H 11850 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D?
+L D D58
 U 1 1 5B3BF3A3
 P 12800 3950
-F 0 "D?" H 12800 4050 50  0000 C CNN
+F 0 "D58" H 12800 4050 50  0000 C CNN
 F 1 "D" H 12800 3850 50  0000 C CNN
 F 2 "keyboard:Diode" H 12800 3950 50  0001 C CNN
 F 3 "" H 12800 3950 50  0001 C CNN
@@ -1353,10 +1353,10 @@ F 3 "" H 12800 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D?
+L D D55
 U 1 1 5B3C0167
 P 9300 6150
-F 0 "D?" H 9300 6250 50  0000 C CNN
+F 0 "D55" H 9300 6250 50  0000 C CNN
 F 1 "D" H 9300 6050 50  0000 C CNN
 F 2 "keyboard:Diode" H 9300 6150 50  0001 C CNN
 F 3 "" H 9300 6150 50  0001 C CNN
@@ -1364,10 +1364,10 @@ F 3 "" H 9300 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D?
+L D D57
 U 1 1 5B3C0B34
 P 11850 4450
-F 0 "D?" H 11850 4550 50  0000 C CNN
+F 0 "D57" H 11850 4550 50  0000 C CNN
 F 1 "D" H 11850 4350 50  0000 C CNN
 F 2 "keyboard:Diode" H 11850 4450 50  0001 C CNN
 F 3 "" H 11850 4450 50  0001 C CNN
@@ -1375,10 +1375,10 @@ F 3 "" H 11850 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D?
+L D D59
 U 1 1 5B3C0CCA
 P 12800 4450
-F 0 "D?" H 12800 4550 50  0000 C CNN
+F 0 "D59" H 12800 4550 50  0000 C CNN
 F 1 "D" H 12800 4350 50  0000 C CNN
 F 2 "keyboard:Diode" H 12800 4450 50  0001 C CNN
 F 3 "" H 12800 4450 50  0001 C CNN
@@ -1386,10 +1386,10 @@ F 3 "" H 12800 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D?
+L D D60
 U 1 1 5B3C0E5D
 P 12800 4950
-F 0 "D?" H 12800 5050 50  0000 C CNN
+F 0 "D60" H 12800 5050 50  0000 C CNN
 F 1 "D" H 12800 4850 50  0000 C CNN
 F 2 "keyboard:Diode" H 12800 4950 50  0001 C CNN
 F 3 "" H 12800 4950 50  0001 C CNN
@@ -1628,33 +1628,33 @@ Text GLabel 12200 3600 1    60   Input ~ 0
 col13
 Text GLabel 12800 6300 2    60   Input ~ 0
 row4
-Text GLabel 5700 1500 0    60   Input ~ 0
+Text GLabel 7000 1700 2    60   Input ~ 0
 col0
-Text GLabel 7050 1200 2    60   Input ~ 0
+Text GLabel 5650 2000 0    60   Input ~ 0
 col2
-Text GLabel 5700 1400 0    60   Input ~ 0
+Text GLabel 7000 1800 2    60   Input ~ 0
 col1
-Text GLabel 7050 1300 2    60   Input ~ 0
+Text GLabel 5650 1800 0    60   Input ~ 0
 col4
-Text GLabel 5700 700  0    60   Input ~ 0
+Text GLabel 7000 2500 2    60   Input ~ 0
 col3
-Text GLabel 7050 800  2    60   Input ~ 0
+Text GLabel 5650 2400 0    60   Input ~ 0
 col5
-Text GLabel 8200 950  2    60   Input ~ 0
+Text GLabel 5650 1700 0    60   Input ~ 0
 col6
-Text GLabel 8200 1150 2    60   Input ~ 0
+Text GLabel 7000 900  2    60   Input ~ 0
 col7
-Text GLabel 8200 1350 2    60   Input ~ 0
+Text GLabel 5650 1000 0    60   Input ~ 0
 col8
-Text GLabel 8150 1550 2    60   Input ~ 0
+Text GLabel 5650 2200 0    60   Input ~ 0
 col9
-Text GLabel 8150 1750 2    60   Input ~ 0
+Text GLabel 5650 2100 0    60   Input ~ 0
 col10
-Text GLabel 8150 1950 2    60   Input ~ 0
+Text GLabel 5650 1900 0    60   Input ~ 0
 col11
-Text GLabel 8150 2150 2    60   Input ~ 0
+Text GLabel 5650 2500 0    60   Input ~ 0
 col12
-Text GLabel 8100 2400 2    60   Input ~ 0
+Text GLabel 7000 1000 2    60   Input ~ 0
 col13
 Wire Wire Line
 	5800 5900 5800 6000
@@ -1700,14 +1700,33 @@ Connection ~ 12200 4700
 Wire Wire Line
 	12800 5200 12800 5300
 Connection ~ 12800 5600
-Text GLabel 7050 1600 2    60   Input ~ 0
+Text GLabel 5650 1600 0    60   Input ~ 0
 row0
-Text GLabel 7050 1700 2    60   Input ~ 0
+Text GLabel 5650 1500 0    60   Input ~ 0
 row1
-Text GLabel 5700 1000 0    60   Input ~ 0
+Text GLabel 7000 2200 2    60   Input ~ 0
 row3
-Text GLabel 5350 1650 0    60   Input ~ 0
+Text GLabel 5650 2300 0    60   Input ~ 0
 row4
-Text GLabel 5700 1100 0    60   Input ~ 0
+Text GLabel 7000 2100 2    60   Input ~ 0
 row2
+Connection ~ 11000 5600
+NoConn ~ 7000 1300
+NoConn ~ 7000 2300
+NoConn ~ 7000 1900
+NoConn ~ 7000 2000
+NoConn ~ 7000 2400
+NoConn ~ 5650 900 
+NoConn ~ 4800 1750
+NoConn ~ 7000 1100
+NoConn ~ 7000 1200
+NoConn ~ 5650 1400
+NoConn ~ 5650 1300
+NoConn ~ 5650 1200
+NoConn ~ 5650 1100
+Connection ~ 3250 6300
+Connection ~ 6750 5600
+Connection ~ 9300 5600
+Connection ~ 12200 3700
+NoConn ~ 7000 1400
 $EndSCHEMATC
